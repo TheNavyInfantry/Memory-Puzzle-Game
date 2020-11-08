@@ -1,7 +1,7 @@
 import random
+import sys
 
 import pygame
-import sys
 from pygame.locals import *
 
 rectangles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
@@ -309,7 +309,7 @@ def main():
     global Window
     Window = pygame.display.set_mode((400, 400))  # resolution
     Window.fill((54, 57, 63))  # background color
-    pygame.display.set_caption("Nedim Can Ulusoy - HUUMCJ")
+    pygame.display.set_caption("MPG | Nedim Can Ulusoy | HUUMCJ")
 
     drawElement()
     startGame()
